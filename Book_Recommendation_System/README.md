@@ -34,15 +34,7 @@ json_output = get_recommendations_as_json(book_id=13, model_type='improved', top
 recommended_books = json.loads(json_output)
 ```
 
-### Dependencies:
-
-- numpy
-- pandas
-- scikit-learn
-- scipy
-
 ### Note:
 
 Make sure to have the required datasets (`books_enriched.csv` and `ratings.csv`) available in the same directory or provide the appropriate paths for data loading.
 
-For more details on implementation and usage, please refer to the code documentation and comments.
